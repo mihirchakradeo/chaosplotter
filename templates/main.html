@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Chaos Plot</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body align="center">
+<br><br><br><br>
+
+<form action="/plot" method="POST">
+	<div class="col-xs-2 col-xs-offset-5">
+		<label>X Coordinate</label>
+		<input type="text" class="form-control col-xs-3" name="x" pattern="[0-9]+" required/><br>
+		<label>Y Coordinate</label>
+		<input type="text" class="form-control col-xs-3" name="y" pattern="[0-9]+" required/><br>
+		<label>Iterations</label>
+		<input type="text" class="form-control col-xs-3" name="iter" pattern="[0-9]+" required/><br><br><br>
+		<button class="btn btn-primary">Plot</button>
+	</div>
+</form>
+
+
+
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
