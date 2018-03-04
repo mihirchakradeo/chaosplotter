@@ -6,5 +6,7 @@ Inspired from this numberphile video: https://www.youtube.com/watch?v=kbKtFN71Lf
 https://chaosplotter.herokuapp.com/
 
 > Suggested Values: X coordinate : 1000
-                    Y coordinate : 100
-                    Iterations: Start off with 1000 and increase to around 50000
+
+>                   Y coordinate : 100
+
+>                   Iterations: Start off with 1000 and increase to around 50000
